@@ -56,7 +56,7 @@ VBoxManage modifyvm "$VM_NAME" \
 # Audio configuration
 echo "🔊 Configuring audio..."
 VBoxManage modifyvm "$VM_NAME" \
-    --audio pulse \
+    --audio-driver dsound \
     --audiocontroller hda \
     --audiocodec stac9221
 

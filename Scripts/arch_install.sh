@@ -109,6 +109,17 @@ pacman -S --noconfirm \
     neofetch htop btop \
     virtualbox-guest-utils virtualbox-guest-modules-arch
 
+
+# Install PipeWire audio system
+echo "🔊 Installing PipeWire and audio stack..."
+pacman -S --noconfirm pipewire pipewire-pulse pipewire-alsa pipewire-jack wireplumber sof-firmware alsa-utils
+
+# Enable PipeWire services
+systemctl enable pipewire.service
+systemctl enable pipewire-pulse.service
+systemctl enable wireplumber.service
+
+
 # Enable services
 systemctl enable lightdm
 systemctl enable docker
