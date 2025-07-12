@@ -31,7 +31,6 @@ VBoxManage modifyvm "$VM_NAME" \
     --vram 128 \
     --graphicscontroller vboxsvga \
     --accelerate3d on \
-    --accelerate2dvideo on \
     --boot1 dvd \
     --boot2 disk \
     --boot3 none \
