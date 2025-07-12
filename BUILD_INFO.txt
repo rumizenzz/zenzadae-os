@@ -1,0 +1,62 @@
+ZenzaDae Group OS Build Information
+==================================
+
+Build Version: 1.1
+Build Date: $(date)
+Build System: Automated Package Builder
+
+Components Included:
+- Base System: Arch Linux (latest)
+- Desktop Environment: XFCE 4.18+
+- Development Tools: VS Code, Git, Node.js, Python, Go, Docker
+- Virtualization: VirtualBox 7.0+
+- Security: Custom Lock-In Mode system
+- Branding: Complete ZenzaDae theme package
+
+Package Structure:
+- Virtual Machine: .ova format for universal compatibility
+- Windows Integration: Batch scripts for seamless operation
+- Documentation: Complete installation and user guides
+- Branding Assets: Wallpapers, themes, and visual elements
+- Security Scripts: Lock-In Mode and system hardening
+
+Technical Specifications:
+- VM Disk Size: 50GB (dynamically allocated)
+- RAM Allocation: 4GB (configurable)
+- CPU Cores: 2 (configurable) 
+- Graphics: VBoxSVGA with Guest Additions
+- Network: NAT configuration
+- Storage: SATA controller with AHCI
+
+Default Credentials:
+- Username: zenza
+- Password: zenza2025
+- Root Password: zenzaroot2025
+- Auto-login: Enabled
+
+Security Features:
+- Lock-In Mode with keyboard restriction
+- Fullscreen enforcement
+- Host system access limitation
+- Firewall configuration
+- User permission management
+
+Development Environment:
+- VS Code with extensions
+- Git configuration
+- Node.js with npm/yarn
+- Python with pip
+- Go development tools
+- Docker containerization
+- ZSH shell with Starship prompt
+
+Build Notes:
+- All components are preconfigured and ready-to-use
+- Branding is applied system-wide
+- Lock-In Mode is optional and user-controllable
+- Windows integration provides seamless experience
+- Package is designed for easy distribution and deployment
+
+Version History:
+v1.1 - Initial release with complete feature set
+v1.0 - Development version (internal)
